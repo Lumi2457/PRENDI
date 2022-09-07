@@ -1,0 +1,144 @@
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-size: 100%;
+    background-color:  #DD502D;
+}
+
+
+.flex-container{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #F9FEFC; 
+}
+
+.navbar{
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FEFC; 
+    font-size: 20px;
+}
+
+.nav-link{
+    margin-left:20px;
+    margin-right:20px;
+    color:#F9FEFC;
+}
+
+#Titulo{   
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight: normal
+}
+
+
+
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 40px 40px;
+    background-color:#E7E8EB;
+}
+
+.flex-container-prendi{
+    display: flex;
+    justify-content:flex-start;
+    padding: 10px;
+    align-items: center;
+}
+
+.flex-container-prendi > div {
+    width: 400px;
+    text-align: start;
+    font-size: 15px;
+}
+
+#LogoImagen{
+    margin-left: 50px;
+    width: 300px;
+}
+
+#TextoPrendi{
+    margin-right: 20px;
+    padding-right: 40px;
+    width: 600px;
+}
+
+ul{
+    margin: 0px;
+}
+
+.SolucionTexto{
+    margin: 10px 20px;
+    padding: 20px 40px;
+
+}
+
+#footer{
+    padding-top: 96px 0px;
+    background-color:#343434;
+    color: #F9FEFC;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.footer-top {
+    padding: 60px 0 40px 0; 
+    text-align: left;
+}
+
+.footer-top h3 { 
+    padding-bottom: 10px; }
+
+.footer-about{
+    text-align: left;
+}
+
+.footer-contact p { 
+    word-wrap: break-word; }
+
+.footer-contact i { 
+    padding-right: 10px; 
+    font-size: 18px; 
+    color: #ddd; }
+
+.footer-contact p a:hover, .footer-contact p a:focus { 
+    color:#555; }
+
+.footer-links a { 
+    color: #F9FEFC;
+    text-decoration: none; 
+    border: 0; }
+
+.footer-links a:hover, .footer-links a:focus { 
+    color: #555; 
+    margin-left: 3px; }
+
+.footer-bottom { 
+    padding: 0 0 60px 0; }
+
+.footer-social a { 
+    margin: 0 10px; 
+    color: #bbb; 
+    border: 0; }
+
+.footer-social a:hover, .footer-social a:focus { 
+    color: #343434; 
+    border: 0; }
+
+.footer-social i { 
+    font-size: 24px; 
+    vertical-align: middle; }

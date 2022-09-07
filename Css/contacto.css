@@ -1,0 +1,146 @@
+
+body{
+    background-color: #343434;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-link{
+    color: #E7E8EB
+}
+
+.flex-container{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #E7E8EB; 
+}
+
+.navbar{
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    justify-content: center;
+    align-items: center;
+    color: #E7E8EB; 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#Titulo{   
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 40px 60px;
+    background-color:#E7E8EB;
+}
+
+.flex-container-c{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.flex-container-c > div {
+    width: 500px;
+    text-align:start;
+    font-size: 15px;
+}
+
+.link{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+#footer{
+    padding-top: 96px 0px;
+    background-color: #DD502D;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.footer-top {
+    padding: 60px 0 40px 0; 
+    text-align: left;
+}
+
+.footer-top h3 { 
+    padding-bottom: 10px; }
+
+.footer-about{
+    text-align: left;
+}
+
+#location{
+    display: inline-block;
+}
+
+.footer-contact p { 
+    word-wrap: break-word; 
+}
+
+.footer-contact i { 
+    padding-right: 10px; 
+    font-size: 18px; 
+    color: #ddd; 
+}
+
+.footer-contact p a { 
+    color: white;
+}
+
+.footer-contact p a:hover, .footer-contact p a:focus { 
+    color: #343434;
+}
+
+.footer-links a { color: rgb(255, 255, 255);
+    text-decoration: none; 
+    border: 0; 
+}
+
+.footer-links a:hover, .footer-links a:focus { 
+    color: #555; 
+    margin-left: 3px; 
+}
+
+.footer-bottom { 
+    padding: 0 0 60px 0; 
+}
+
+.footer-social a { 
+    margin: 0 10px; 
+    color: #bbb; 
+    border: 0; 
+}
+
+.footer-social a:hover, .footer-social a:focus { 
+    color: #343434; 
+    border: 0; 
+}
+
+.footer-social i { 
+    font-size: 24px; 
+    vertical-align: middle; 
+}
