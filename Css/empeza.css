@@ -41,16 +41,17 @@ body{
 main{
     margin-left: 150px;
     margin-right: 150px;
+    height: auto;
     background-color:#F9FEFC;
     color: black
 }
 
 .empeza{
     margin: 20px;
-    padding: 40px 60px;
+    padding: 40px 40px;
     font-size: 20px;
     color: #343434;
-    height: 700px;
+    height: 940px;
 }
 
 h5{
@@ -68,17 +69,13 @@ h5{
 .row-opciones{
     display: flex;
     justify-content: space-around;
-    height: 200px;
+    height:350px;
 }
 
-.row-opciones> div {
-    width: 280px;
+.row-opciones > div {
+    width: 220px;
     text-align: center;
     font-size: 15px;
-}
-
-.opciones{
-    height: fit-content;
 }
 
 .buttonCarousel{
@@ -97,22 +94,24 @@ h5{
     align-items: center;
   }
   
- .buttonCarousel:hover {
-    background-color: #DD502D;
-    box-shadow: #DD502D;
-    color: #fff;
-    transform: translateY(-7px);
-  }
+.buttonCarousel:hover {
+   background-color: #DD502D;
+   box-shadow: #DD502D;
+   color: #fff;
+   transform: translateY(-7px);
+}
   
 .buttonCaousel:active {
     transform: translateY(-1px);
   }
-  
-#box{
-    visibility: hidden;
-    background-color:#F9FEFC;
-}
 
+
+#manchaOculta{
+    visibility: hidden;
+}
+#roturaOculta{
+    visibility: hidden;
+}
 
 #footer{
     padding-top: 96px 0px;

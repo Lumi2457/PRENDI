@@ -1,11 +1,15 @@
 
-const box = document.getElementById('box');
-const btn = document.getElementById('btn');
+const bloqueMancha = document.getElementById('manchaOculta');
+const btnMancha = document.getElementById('btnMancha');
 
-btn.addEventListener('click', function handleClick() {
-  if (box.style.visibility === 'hidden') {
-    box.style.visibility = 'visible';
+
+btnMancha.addEventListener('click', function handleClick() {
+  if (bloqueMancha.style.visibility === 'hidden') {
+    bloqueMancha.style.visibility = 'visible';
   } else {
-    box.style.visibility = 'hidden';
+    bloqueMancha.style.visibility = 'hidden';
   }
 });
+
+
+

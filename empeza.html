@@ -11,8 +11,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <!--Bootstrap-->        
+        <!--Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
         <!--CSS-->
         <link rel="stylesheet" href="./Css/empeza.css">
     </head>
@@ -37,46 +39,54 @@
         <br>
         <main>
             <div class="empeza"> 
-                <h5> No usas una prenda y queres desecharla, ¿Decinos el porque?</h5>
+                <h5> No usas una prenda y queres desecharla, ¿Decinos el porqué?</h5>
                     <br>
                     <p id="introduccion"> Con estas opciones a continuación podras responder porque queres tirar la prenda. 
                         Asi poder brindarte una ayuda y que puedas seguir usandola o directamente tenga otra destino útil.</p>
                 <br>
                 <br>
                 <div class="row-opciones">
-                    <div class="opciones" >  
-                        <img src="./imagenes/MANCHA.png" alt="Mancha" width="200" height="200">
+                    <div>  
+                        <img src="./imagenes/mancha.png" alt="Mancha" width="200" height="200">
                         <br>
                         <br>
                         <br>
-                        <button id="btn" class="buttonCarousel" type="button"> Tiene una mancha
-                        </button>
-
-                        <div id="box" data-aos="fade-down">
-                            <h3>Titulo</h3>
-                            <p>
-                                Esto es un parrafo
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="opciones"> 
-                        <img src="./imagenes/MANCHA.png" alt="Mancha" width="200" height="200">
-                        <br>
-                        <br>
-                        <br>
-                        <button class="buttonCarousel" type="button" onclick="location.href='./info.html'">Tiene una rotura
+                        <button class="buttonCarousel" type="button" id="btnMancha"> Tiene una mancha
                         </button>
                     </div>
 
                     <div class="opciones"> 
-                        <img src="./imagenes/MANCHA.png" alt="Mancha" width="200" height="200">
+                        <img src="./imagenes/rotura.png" alt="Mancha" width="200" height="200">
+                        <br>
+                        <br>
+                        <br>
+                        <button class="buttonCarousel" type="button" id="btnRotura"> Tiene una rotura
+                        </button>
+                    </div>
+
+                    <div class="opciones"> 
+                        <img src="./imagenes/donar.png" alt="Mancha" width="200" height="200">
                         <br>
                         <br>
                         <br>
                         <button class="buttonCarousel" type="button" onclick="location.href='./info.html'">Ya no me gusta
                         </button>
                     </div>
+                </div>                    
+                <div id="manchaOculta">
+                    <h4>
+                        Manchas </h4>
+                    <p>
+                        Con estas opciones a continuación podras responder porque queres tirar la prenda. 
+                        Asi poder brindarte una ayuda y que puedas seguir usandola o directamente tenga otra destino útil
+                    </p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Seleciona el tipo de mancha</option>
+                        <option value="1" >Comida</option>
+                        <option value="2">Productos de limpieza</option>
+                        <option value="3">Tintas y Pinturas</option>
+                        <option value="1">Productos de Maquillaje</option>                  
+                    </select>
                 </div>
             </div>
         </main>

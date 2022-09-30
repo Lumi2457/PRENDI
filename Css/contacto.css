@@ -69,6 +69,10 @@ main{
 
 }
 
+#miParrafo{
+    display:none
+}
+
 #footer{
     padding-top: 96px 0px;
     background-color: #DD502D;
