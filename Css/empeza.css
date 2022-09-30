@@ -108,10 +108,9 @@ h5{
 
 #manchaOculta{
     visibility: hidden;
+    padding: 0px 40px;
 }
-#roturaOculta{
-    visibility: hidden;
-}
+
 
 #footer{
     padding-top: 96px 0px;
